@@ -1,0 +1,9 @@
+to change disk E just write:
+E:
+
+no need cd when disk is changing
+
+open terminal
+conda create -p venv python==3.8 -y
+
+conda activate venv/
