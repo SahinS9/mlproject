@@ -7,3 +7,21 @@ open terminal
 conda create -p venv python==3.8 -y
 
 conda activate venv/
+
+DO NOT PUSH venv to the github
+
+push only notes
+
+create .gitignore in github and select Python from config. in order to ignore venv while commiting changes
+
+git pull
+
+create setup.py and requirements.txt in local
+
+write setup.py file with needed info
+
+then create folder: src (source)
+and create file in it __init__.py
+
+-e in the requirements.txt will trigger setup.py file 
+
