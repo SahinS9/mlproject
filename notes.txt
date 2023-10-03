@@ -25,3 +25,16 @@ and create file in it __init__.py
 
 -e in the requirements.txt will trigger setup.py file 
 
+
+
+### 2 ###
+
+ALL ARE FOR DATA TRAINING
+components folder  - all modules will be here ( data_ingestion to read data)
+after this data_transformation will happe
+after model_trainer file for training all models here
+
+PIPELINE folder
+-train_pipeline.py - in order to call(trigger) components folder - clean data, transform data, train data and have pickle ready model
+
+utils.py - for reading data from source (database)
