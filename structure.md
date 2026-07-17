@@ -39,3 +39,15 @@ mlproject/
 ├── requirements.txt
 ├── README.md
 └── .env
+
+
+
+
+
+
+DATABASE
+ml schema
+→ ingestion, training, validation, model metadata
+
+api schema
+→ users, authentication, website activity, predictions
