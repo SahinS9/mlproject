@@ -24,6 +24,7 @@ def create_database_engine() -> Engine:
         engine = create_engine(
             database_url
             ,pool_pre_ping=True
+            ,hide_parameters=True
         )
 
         logger.info("Database engine created successfully")

@@ -92,6 +92,11 @@ class RawLoadDefault(Base):
         ,nullable=True
     )
 
+    has_dependents: Mapped[str | None] = mapped_column(
+        String
+        ,nullable=True
+    )
+
     loan_purpose: Mapped[str | None] = mapped_column(
         String
         ,nullable=True
